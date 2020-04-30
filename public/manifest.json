@@ -1,6 +1,6 @@
 {
-  "short_name": "Saad Pasta Portfolio",
-  "name": "Saad Pasta Portfolio",
+  "short_name": "Perspectilt",
+  "name": "Perspectilt Website",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,8 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#551A8B",
+  "background_color": "#eee8f3
+#ffffff
+"
 }
