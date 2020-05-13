@@ -9,8 +9,7 @@
   src: local('Montserrat'), url('./assests/fonts/Montserrat-Regular.ttf') format('woff');
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: 'Inconsolata', monospace;
 }
 html,
 body {
@@ -19,6 +18,7 @@ body {
 body {
   margin: 0;
   font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font-family: 'Roboto Slab', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
