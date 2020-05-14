@@ -7,8 +7,8 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "We're Perspectilt;",
-  subTitle: emoji("We're a group of students(Boys!👦) having an experience of Python and some other stuffs!🚀"),
+  title: "Hello, from the Perspectilt team!",
+  subTitle: "We all have a perspective of what's real, and what's possible. And we are here to redefine the possibilities of code. So sit back and relax, while we bring your ideas to reality. Welcome to perspectilt!",
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -26,12 +26,12 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What We do",
-  subTitle: "WE ARE CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
+  title: "WHAT WE DO",
+  subTitle: "We are a passionate full stack developers, exploring and learning every tech stack",
   skills: [
-    emoji("⚡ We build out many Python Projects"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("~  We develop highly user friendly desktop applications for all personal and business use."),
+    emoji("~  Advanced python scripts to solve everyday problems using deep learning technology"),
+    emoji("~  Independant tools and utilities, including educational simulations and fun games")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -100,15 +100,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      progressPercentage: "75%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "90%"
     }
   ]
 };
@@ -228,9 +228,9 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Us ☎️"),
-  subtitle: "Discuss a project or just want to say hi my inbox is open for all",
-  number: "+92-XXX",
-  email_address: "perspectilt@syrusdark.website"
+  subtitle: "Discuss a project or just want to say hi our inbox is open for all",
+  number: "+91-XXXXX XXXXX",
+  email_address: "perspectilt@gmail.com"
 };
 
 //Twitter Section
