@@ -1,7 +1,7 @@
 .blog-container {
   border-radius: 10px;
-  color: #586069;
-  background-color: #fff;
+  color: #ebeef1;
+  background-color: #909090;
   box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
   /* padding: 2rem; */
   cursor: pointer;
@@ -9,7 +9,7 @@
 }
 
 .blog-title {
-  color: #262626;
+  color: #c1c1c1;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
@@ -25,7 +25,7 @@
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  color: #666666;
+  color: rgb(247, 236, 236);
   padding: 0px 20px;
   overflow: hidden;
   display: -webkit-box;
@@ -44,7 +44,7 @@
   overflow: hidden;
   top: 0;
   right: 0;
-  background-color: #55198b;
+  background-color: #696969;
   border-radius: 0 4px 0 32px;
 }
 
@@ -72,7 +72,7 @@
   z-index: -1;
   top: -16px;
   right: -16px;
-  background: #55198b;
+  background: #fefefe;
   height: 32px;
   width: 32px;
   border-radius: 32px;
@@ -87,12 +87,12 @@
 
 .blog-card:hover > .small {
   transition: all 0.3s ease-out;
-  color: rgba(255, 255, 255, 0.8);
+  color: #333030;
 }
 
 .blog-card:hover > h3 {
   transition: all 0.3s ease-out;
-  color: #ffffff;
+  color: #242424;
 }
 
 @media screen and (max-width: 480px) and (min-width: 300px), (min-width: 925px) and (max-width: 1024px), (min-width: 1405px) and (max-width: 1550px) {
