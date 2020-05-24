@@ -72,17 +72,19 @@ function SEO({ description, lang, meta, title }) {
     />
     <Helmet>
         <script type="application/ld+json">
-        %7B
-%20%20%20%20%20%20%20%20%20%20%20%20%22%40context%22%3A%20%22https%3A%2F%2Fschema.org%22%2C
-%20%20%20%20%20%20%20%20%20%20%20%20%22%40type%22%3A%20%22Organization%22%2C
-%20%20%20%20%20%20%20%20%20%20%20%20%22url%22%3A%20%22https%3A%2F%2Fperspectilt.js.org%2F%22%2C
-%20%20%20%20%20%20%20%20%20%20%20%20%22name%22%3A%20%22Perspectilt%22%2C
-%20%20%20%20%20%20%20%20%20%20%20%20%22contactPoint%22%3A%20%7B
-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22%40type%22%3A%20%22ContactPoint%22%2C
-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22email%22%3A%20%22perspectilt%40syrusdark.website%22%2C
-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22contactType%22%3A%20%22Random%22
-%20%20%20%20%20%20%20%20%20%20%20%20%7D
-%20%20%20%20%20%20%20%20%20%20%7D
+        {String(`{
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://perspectilt.js.org/",
+          "name": "Perspectilt",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "perspectilt@syrusdark.website",
+            "contactType": "Random"
+          }
+        }`
+      )
+    }
         </script>
     </Helmet>
 </div>
