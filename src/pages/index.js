@@ -11,7 +11,7 @@ const IndexPage = () => (
     <h1>We are perspectilt.</h1>
     <p>We do many things and are build the site. So you could see many updates. For now we started with a Gatsby template.</p>
     <p>From now on, we will build this site Good and Ready to show up.</p>
-    <p> Check out our terminal interface. We would be build next.</p>
+    <p> Check out our terminal interface. We would be build next.This is to check some updates.</p>
     <Link to="/terminal/">Go to Terminal</Link>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
