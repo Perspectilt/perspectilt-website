@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/nav'
 import 'header.css'
 
 const Header = () => (
