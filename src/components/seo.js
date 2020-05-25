@@ -79,6 +79,7 @@ function SEO({ description, lang, meta, title }) {
         <link rel="shortcut icon" href="/favicon.ico?v=jwEXOW40pg" />
         <meta name="msapplication-TileColor" content="#603cba" />
         <meta name="theme-color" content="#ffffff" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
         <script type="application/ld+json">
         {String(`{
           "@context": "https://schema.org",
