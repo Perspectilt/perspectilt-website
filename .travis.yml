@@ -7,7 +7,7 @@ branches:
   - gh-pages
 install:
   - npm install
-build:
+script:
   - gatsby build
 deploy:
   provider: pages
