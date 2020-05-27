@@ -1,4 +1,3 @@
-import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 import Navbar from 'react-bootstrap/Navbar';
@@ -6,7 +5,7 @@ import styles from "./header.module.css"
 
 const Header = () => (
   <>
-<Navbar className={styles.headersContent} >
+<Navbar className={styles.headersContent}  sticky="top" >
   <Navbar.Brand href="\" className={styles.headerBrand}>
     <img
       alt="Pespectilt Logo"
