@@ -1,0 +1,11 @@
+.headersContent {
+  background-color: rebeccapurple;
+  margin-bottom: 1.45rem;
+  text-decoration: none;
+}
+.headerBrand{
+  color: white;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+}

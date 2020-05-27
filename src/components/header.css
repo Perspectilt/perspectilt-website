@@ -1,5 +1,7 @@
-.headers{
-    background: 'rebeccapurple';
-    color: 'white';
-    margin-bottom: '1.45rem';
+.headersContent {
+  background-color: 'rebeccapurple';
+  color: 'white';
+  margin-bottom: '1.45rem';
+  text-decoration: 'none';
 }
+
