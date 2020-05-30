@@ -7,6 +7,9 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Alert from 'react-bootstrap/Alert'
 import Button from 'react-bootstrap/Button'
+//import Header from "../components/header"
+//import Container from "react-bootstrap/Container"
+import "../styles/main.css"
 
 function AlertDismissible() {
   const [show, setShow] = useState(true);
@@ -35,19 +38,23 @@ function AlertDismissible() {
 
 function IndexPage() {
   return (
-    <Layout>
-    <SEO title="Pespectilt." lang="en"/>
-    <h1 className="headers-content">We are perspectilt.</h1>
-    <p>We do many things and are build the site. So you could see many updates. For now we started with a Gatsby template.</p>
-    <p>From now on, we will build this site Good and Ready to show up.</p>
-    <p> Check out our terminal interface. We would be build next.This is to check some updates.</p>
-    <Link to="/terminal/">Go to Terminal</Link>
-    <AlertDismissible />
-    <div style={{ maxWidth: `500px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div>
+      <SEO title="Pespectilt." lang="en"/>
+      <header id="header">
+				<div class="logo"><a href="/">data <span>OVERFLOW</span></a></div>
+				<a href="#menu"><span>Menu</span></a>
+			</header>
+      <section id="banner" className="bg-img" data-bg="data.jpg">
+				<div class="inner">
+					<header>
+						<h1>Perspectilt</h1>
+            <i class="fab fa-500px"></i>
+            <AlertDismissible />
+					</header>
+				</div>
+				<a href="#one" className="more"><i class="fas fa-chevron-down"></i>Learn More</a>
+			</section>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-    </Layout>
     );
 }
 

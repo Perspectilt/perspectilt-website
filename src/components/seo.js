@@ -78,8 +78,8 @@ function SEO({ description, lang, meta, title }) {
         <link rel="mask-icon" href="/safari-pinned-tab.svg?v=jwEXOW40pg" color="#5bbad5" />
         <link rel="shortcut icon" href="/favicon.ico?v=jwEXOW40pg" />
         <meta name="msapplication-TileColor" content="#603cba" />
-        <meta name="theme-color" content="#ffffff" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <meta name="theme-color" content="#000000" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.13.0/css/all.min.css" />
         <script type="application/ld+json">
         {String(`{
           "@context": "https://schema.org",

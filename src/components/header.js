@@ -5,13 +5,13 @@ import styles from "./header.module.css"
 
 const Header = () => (
   <>
-<Navbar className={styles.headersContent}  sticky="top" >
+<Navbar className={styles.headersContent}  sticky="top" bg="dark" variant="dark">
   <Navbar.Brand href="\" className={styles.headerBrand}>
     <img
       alt="Pespectilt Logo"
       src="/logo.svg"
-      width="55"
-      height="55"
+      width="40"
+      height="40"
       className="d-inline-block align-top"
     />{' '}
     <span className={styles.headerBrand}>Perspectilt</span>

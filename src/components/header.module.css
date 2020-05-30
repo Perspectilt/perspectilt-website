@@ -1,11 +1,12 @@
 .headersContent {
-  background-color: rebeccapurple;
+  background-color: rgb(19, 37, 36);
   margin-bottom: 1.45rem;
   text-decoration: none;
+  padding: 1.5rem;
 }
 .headerBrand{
-  color: white;
+  color: rgb(153, 99, 99);
   font-weight: 400;
   font-style: normal;
-  font-size: 2rem;
+  font-size: larger;
 }
